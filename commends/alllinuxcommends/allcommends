@@ -1,0 +1,288 @@
+1  sudo su -
+    2  ls
+    3  su - ubuntu
+    4  # Switch to root
+    5  sudo su
+    6  # Reset passwords for ubuntu and ajay users
+    7  passwd ubuntu
+    8  passwd ajay
+    9  # Ensure home directories exist and have correct permissions
+   10  mkdir -p /home/ajay
+   11  chown -R ajay:ajay /home/ajay
+   12  chmod 755 /home/ajay
+   13  mkdir -p /home/ubuntu
+   14  chown -R ubuntu:ubuntu /home/ubuntu
+   15  chmod 755 /home/ubuntu
+   16  # Add ajay to the sudo group
+   17  usermod -aG sudo ajay
+   18  ls
+   19  exit
+   20  ls
+   21  usermod -aG sudo ajay
+   22  cd /home/
+   23  usermod -aG sudo ajay
+   24  sudo usermod -aG sudo ajay
+   25  ls
+   26  mkdir -p /home/ajay
+   27  cd ..
+   28  sudo su -
+   29  ls
+   30  cd /home/
+   31  ls
+   32  cd ubuntu/
+   33  ls
+   34  sudo su -
+   35  ls
+   36  su ajay
+   37  su -ajay
+   38  su - ajay
+   39  id
+   40  ssh-keygen
+   41  Nslooup
+   42  nslookup
+   43  nslooknslooiiii
+   44  \nslookupns
+   45  nsllokup
+   46  ns
+   47  nsl
+   48  nslookup sudo su -
+   49  sudo su -
+   50  ls
+   51  id
+   52  id -u ajay
+   53  id -u leela
+   54  id -u ubuntu
+   55  nslookup google.com
+   56  free
+   57  free -h
+   58  curl www.google.com
+   59  df -h
+   60  df
+   61  Htop
+   62  htop
+   63  ps aux
+   64  kill -l
+   65  TNc
+   66  TNC
+   67  sudo su -
+   68  rrrrls
+   69  ls
+   70  sudo su -
+   71  README.md  commends  typescript
+   72  root@ip-172-31-4-81:~/Linux_coomends# cd commends/
+   73  root@ip-172-31-4-81:~/Linux_coomends/commends# exit
+   74  exit
+   75  history
+   76  ls
+   77  history
+   78  ls
+   79  history
+
+
+
+
+
+  ls
+  134  cat README.md
+  135  cd .git
+  136  ls
+  137  ls -la
+  138  cd branches/
+  139  ls
+  140  ls -a
+  141  cd .
+  142  ls
+  143  cd ..
+  144  cd logs
+  145  ls
+  146  cd refs/
+  147  ls
+  148  cd remotes
+  149  ls
+  150  cd origin/
+  151  ls
+  152  cat HEAD
+  153  CD ..
+  154  cd ..
+  155  cd objects/
+  156  ls
+  157  cd info/
+  158  ls
+  159  ls -a
+  160  cd ..
+  161  cd
+  162  ls -l
+  163  cd /home/
+  164  ls
+  165  lss -l
+  166  ls -l
+  167  sudo chown root ajay
+  168  ls -l
+  169  exit
+  170  sudo apt-get install git
+  171  sudo apt-get update
+  172  ls
+  173  ls -la
+  174  ls -l
+  175  ls -la
+  176  find . -name ".git" -type d
+  177  ls
+  178  cd .
+  179  ls
+  180  ls -la
+  181  ls
+  182  sudo su -
+  183  ls
+  184  exit
+  185  ls
+  186  ls
+  187  lsss
+  188  ls
+  189  sudo su -
+  190  ls -l
+  191  pwd
+  192  sudo useradd linux
+  193  sudo passwd linux
+  194  ls
+  195  pwd
+  196  cat leela.txt
+  197  vi leela.txt
+  198  cat leela.txt
+  199  vi file1
+  200  cat leela.txt  file1
+  201  vim file2
+  202  cat leela.txt  file1 file2
+  203  grep this
+  204  grep this leela.txt
+  205  grep  leela.txt
+  206  grep This leela.txt
+  207  grep test leela.txt file1
+  208  grep test leela.txt
+  209  vim file2
+  210  grep file file2
+  211  sort -f file2
+  212  sort -f leela.txt
+  213  sort -f file1
+  214  vim file1
+  215  sort -f file1
+  216  sort -r file1
+  217  vim file1
+  218  sort -r file1
+  219  sort -n
+  220  sort -n file1
+  221  tail  2  file1
+  222  tail2  file1
+  223  tail  file1
+  224  tail file2
+  225  cat file2
+  226  ls
+  227  vi  file1
+  228  tail file2
+  229  tail file1
+  230  tail file1.txt file2.txt
+  231  tail file1  file2
+  232  tail -3 file1  file2
+  233  tail -3 file1
+  234  tail -5 file1
+  235  tail -5 file2
+  236  ls -l
+  237  vi leela.txt
+  238  ls -l
+  239  chmod u+rwx leela.txt
+  240  vi leela.txt
+  241  chmod u+r_x_ leela.txt
+  242  chmod u+r_x leela.txt
+  243  chmod 744 leela.txt
+  244  vi leela.txt
+  245  cat leela.txt
+  246  ls -l
+  247  mkdir Terraform-couse
+  248  chmod 775 Terraform-couse/
+  249  ls -l
+  250  df -h
+  251  ls -l
+  252  sudo chown root DEVOPS_AWS/
+  253  ls -l
+  254  ping google.com
+  255  sudo lsof -u root s
+  256  ls
+  257  cd Linux_coomends/
+  258  ls
+  259  mkdir commends
+  260  ls
+  261  cd commends/
+  262  ls
+  263  touch leela.txt
+  264  ls -a
+  265  ls
+  266  touch file{1..5}
+  267  ls
+  268  ls -l
+  269  mkdir DEVOPS_AWS
+  270  ls
+  271  ls -l
+  272  script
+  273  ls
+  274  cd commends/
+  275  exit
+  276  ls
+  277  cd Linux_coomends/
+  278  ls
+  279  history
+  280  log
+  281  sudo log
+  282  ls -l typescript
+  283  cat typescript
+  284  ls
+  285  cat typescript
+  286  vi typescript
+  287  cat typescript
+  288  HISTORY
+  289  history
+  290  top
+  291  df -h
+  292  free
+  293  log
+  294  cat var
+  295  ls
+  296  cd commends/
+  297  history
+  298  top
+  299  htop
+  300  free
+  301  free -h
+  302  ls
+  303  history
+  304  ls
+  305  cat file1
+  306  cat file2
+  307  cp file1 file2
+  308  cat file2
+  309  cat file1
+  310  cat leela.txt
+  311  mv  leela.txt file1
+  312  cat leela.txt
+  313  caat file1
+  314  cat file1
+  315  mv file2  leelasai
+  316  ls
+  317  cat leelasai
+  318  history
+  319  ls
+  320  cd ..
+  321  ls
+  322  cat typescript
+  323  README.md  commends  typescript
+  324  root@ip-172-31-4-81:~/Linux_coomends# cd commends/
+  325  root@ip-172-31-4-81:~/Linux_coomends/commends# exit
+  326  exit
+  327  ls
+  328  cd Linux_coomends/
+  329  ls
+  330  cd commends/
+  331  ls
+  332  mkdir alllinuxcommends
+  333  cd alllinuxcommends/
+  334  vi allcommends
+  335  history
+

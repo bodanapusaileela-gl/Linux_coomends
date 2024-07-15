@@ -1,0 +1,402 @@
+Script started on 2024-07-15 14:41:30+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="80" LINES="30"]
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls -l
+[?2004ltotal 4
+drwxr-xr-x 2 root root 4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+-rw-r--r-- 1 root root    0 Jul 15 14:40 file1
+-rw-r--r-- 1 root root    0 Jul 15 14:40 file2
+-rw-r--r-- 1 root root    0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root    0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root    0 Jul 15 14:40 file5
+-rw-r--r-- 1 root root    0 Jul 15 14:36 leela.txt
+-rw-r--r-- 1 root root    0 Jul 15 14:41 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# pws[Kd
+[?2004l/root/Linux_coomends/commends
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sudo useradd linux
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sudo passwd linux
+[?2004lNew password: 
+Retype new password: 
+No password has been supplied.
+New password: 
+Retype new password: 
+No password has been supplied.
+New password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls
+[?2004l[0m[01;34mDEVOPS_AWS[0m  file1  file2  file3  file4  file5  leela.txt  typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# pwd
+[?2004l/root/Linux_coomends/commends
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# cat leela.txt 
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi leela.txt 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"leela.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H0,0-1[9CAll[1;1H[?25h[?25l[30;53Ha[1;1H[30;53H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;63H0,1[11CAll[1;1H[?25h[?25lw[30;63H1,2[1;2H[?25h[?25l[1;1H[K[30;65H1[1;1H[?25h[?25li[30;65H2[1;2H[?25h[?25l[1;1H[K[30;65H1[1;1H[?25h[?25lT[30;65H2[1;2H[?25h[?25lh[30;65H3[1;3H[?25h[?25li[30;65H4[1;4H[?25h[?25ls[30;65H5[1;5H[?25h[?25l[30;65H6[1;6H[?25h[?25li[30;65H7[1;7H[?25h[?25ls[30;65H8[1;8H[?25h[?25l[30;65H9[1;9H[?25h[?25la[30;65H10[1;10H[?25h[?25l[30;66H1[1;11H[?25h[?25lt[30;66H2[1;12H[?25h[?25le[30;66H3[1;13H[?25h[?25ls[30;66H4[1;14H[?25h[?25lt[30;66H5[1;15H[?25h[?25l[30;66H6[1;16H[?25h[?25lf[30;66H7[1;17H[?25h[?25li[30;66H8[1;18H[?25h[?25ll[30;66H9[1;19H[?25h[?25le[30;65H20[1;20H[?25h[30;1H[K[1;19H[?25l[30;53H^[[1;19H[30;53H  [1;20H[30;63H1,19[10CAll[1;19H[?25h[?25l[30;53H:[1;19H[30;53H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"leela.txt" 1L, 20B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi leela.txt [1@cat[C[C[C[C[C[C[C[C[C[C[C
+[?2004lThis is a test file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi file1.txt[K[K[K[K
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"file1" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H0,0-1[9CAll[1;1H[?25h[?25l[30;53Hi[1;1H[30;53H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;63H0,1[11CAll[1;1H[?25h[?25lt[30;63H1,2[1;2H[?25h[?25lh[30;65H3[1;3H[?25h[?25li[30;65H4[1;4H[?25h[?25ls[30;65H5[1;5H[?25h[?25l[30;65H6[1;6H[?25h[?25li[30;65H7[1;7H[?25h[?25ls[30;65H8[1;8H[?25h[?25l[30;65H9[1;9H[?25h[?25ls[30;65H10[1;10H[?25h[?25le[30;66H1[1;11H[?25h[?25lc[30;66H2[1;12H[?25h[?25lo[30;66H3[1;13H[?25h[?25ln[30;66H4[1;14H[?25h[?25ld[30;66H5[1;15H[?25h[?25l[30;66H6[1;16H[?25h[?25lt[30;66H7[1;17H[?25h[?25le[30;66H8[1;18H[?25h[?25ls[30;66H9[1;19H[?25h[?25lt[30;65H20[1;20H[?25h[?25l[30;66H1[1;21H[?25h[?25lf[30;66H2[1;22H[?25h[?25li[30;66H3[1;23H[?25h[?25ll[30;66H4[1;24H[?25h[?25le[30;66H5[1;25H[?25h[?25l[2;1H[K[30;63H2,1 [2;1H[?25h[30;1H[K[2;1H[?25l[30;53H^[[2;1H[30;53H  [2;1H[30;63H2,0-1[9CAll[2;1H[?25h[?25l[30;53H:[2;1H[30;53H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"file1" 2L, 26B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi file1cat leela.txt  file1
+[?2004lThis is a test file
+this is second test file
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vim file2
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"file2" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H0,0-1[9CAll[1;1H[?25h[?25l[30;53Hi[1;1H[30;53H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;63H0,1[11CAll[1;1H[?25h[?25lt[30;63H1,2[1;2H[?25h[?25lh[30;65H3[1;3H[?25h[?25li[30;65H4[1;4H[?25h[?25ls[30;65H5[1;5H[?25h[?25l[30;65H6[1;6H[?25h[?25lf[30;65H7[1;7H[?25h[?25li[30;65H8[1;8H[?25h[?25ll[30;65H9[1;9H[?25h[?25le[30;65H10[1;10H[?25h[?25l[30;66H1[1;11H[?25h[30;1H[K[1;10H[?25l[30;53H^[[1;10H[30;53H  [1;11H[30;63H1,10[10CAll[1;10H[?25h[?25l[30;53H:[1;10H[30;53H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"file2" 1L, 11B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vim file2cat leela.txt  file1 file2
+[?2004lThis is a test file
+this is second test file
+
+this file 
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep this 
+[?2004l^C
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# greo[Kp this leela.txt
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep this leela.txt[C[1P leela.txt[1P leela.txt[1P leela.txt[1P leela.txt
+[?2004l^[[A^C
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep  leela.txtthis leela.txt[1P[1@T
+[?2004l[01;31m[KThis[m[K is a test file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep thi[K[K[K[K test leela.txt file1
+[?2004l[35m[Kleela.txt[m[K[36m[K:[m[KThis is a [01;31m[Ktest[m[K file
+[35m[Kfile1[m[K[36m[K:[m[Kthis is second [01;31m[Ktest[m[K file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep test leela.txt file1[K[K[K[K[K
+[?2004lThis is a [01;31m[Ktest[m[K file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep test leela.txt file1[6PThis leela.txt[4P leela.txtthis leela.txt[Kcat leela.txt  file1 file2[17Pvim[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"file2" 1L, 11B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hthis file
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H1,10[10CAll[1;10H[?25h[?25l[30;53H<20>[1;10H[30;53H    [1;10H[?25h[?25l[30;53Hi[1;10H[30;53H [1;10H[30;1H[1m-- INSERT --[m[30;13H[K[30;63H1,10[10CAll[1;10H[?25h[?25l
+ [2;2H[K[30;63H2,1 [2;1H[?25h[?25lf[30;65H2[2;2H[?25h[?25li[30;65H3[2;3H[?25h[?25ll[30;65H4[2;4H[?25h[?25le[30;65H5[2;5H[?25h[?25l[30;65H6[2;6H[?25h[?25ln[30;65H7[2;7H[?25h[?25la[30;65H8[2;8H[?25h[?25lm[30;65H9[2;9H[?25h[?25le[30;65H10[2;10H[?25h[?25l
+ [3;2H[K[30;63H3,1 [3;1H[?25h[?25lf[30;65H2[3;2H[?25h[?25li[30;65H3[3;3H[?25h[?25ll[30;65H4[3;4H[?25h[?25le[30;65H5[3;5H[?25h[?25l[30;65H6[3;6H[?25h[?25lo[30;65H7[3;7H[?25h[?25lf[30;65H8[3;8H[?25h[?25l [30;65H7[3;7H[?25h[?25lr[30;65H8[3;8H[?25h[?25le[30;65H9[3;9H[?25h[?25ld[30;65H10[3;10H[?25h[?25le[30;66H1[3;11H[?25h[?25lr[30;66H2[3;12H[?25h[?25l
+ [4;2H[K[30;63H4,1 [4;1H[?25h[?25l[1m[34m~                                                                               [m[30;63H3,12[3;12H[?25h[?25l [30;66H1[3;11H[?25h[?25l [30;66H0[3;10H[?25h[?25l [30;65H9 [3;9H[?25h[?25l [30;65H8[3;8H[?25h[?25ld[30;65H9[3;9H[?25h[?25le[30;65H10[3;10H[?25h[?25lr[30;66H1[3;11H[?25h[?25l
+ [4;2H[K[30;63H4,1 [4;1H[?25h[?25lf[30;65H2[4;2H[?25h[?25li[30;65H3[4;3H[?25h[?25ll[30;65H4[4;4H[?25h[?25le[30;65H5[4;5H[?25h[?25l[30;65H6[4;6H[?25h[?25lc[30;65H7[4;7H[?25h[?25lo[30;65H8[4;8H[?25h[?25lu[30;65H9[4;9H[?25h[?25ln[30;65H10[4;10H[?25h[?25lt[30;66H1[4;11H[?25h[?25l[30;66H2[4;12H[?25h[?25l
+ [5;2H[K[30;63H5,1 [5;1H[?25h[?25ln[30;65H2[5;2H[?25h[?25la[30;65H3[5;3H[?25h[?25lm[30;65H4[5;4H[?25h[?25le[30;65H5[5;5H[?25h[?25l[30;65H6[5;6H[?25h[?25lo[30;65H7[5;7H[?25h[?25lf[30;65H8[5;8H[?25h[?25l[30;65H9[5;9H[?25h[?25lt[30;65H10[5;10H[?25h[?25lh[30;66H1[5;11H[?25h[?25le[30;66H2[5;12H[?25h[?25l[30;66H3[5;13H[?25h[?25lf[30;66H4[5;14H[?25h[?25li[30;66H5[5;15H[?25h[?25ll[30;66H6[5;16H[?25h[?25le[30;66H7[5;17H[?25h[?25l
+ [6;2H[K[30;63H6,1 [6;1H[?25h[?25ls[30;65H2[6;2H[?25h[?25la[30;65H3[6;3H[?25h[?25li[30;65H4[6;4H[?25h[?25ll[30;65H5[6;5H[?25h[?25le[30;65H6[6;6H[?25h[?25le[30;65H7[6;7H[?25h[?25ll[30;65H8[6;8H[?25h[?25la[30;65H9[6;9H[?25h[?25l
+ [7;2H[K[30;63H7,1[7;1H[?25h[?25ll[30;65H2[7;2H[?25h[?25le[30;65H3[7;3H[?25h[?25le[30;65H4[7;4H[?25h[?25ll[30;65H5[7;5H[?25h[?25la[30;65H6[7;6H[?25h[?25l
+ [8;2H[K[30;63H8,1[8;1H[?25h[?25ld[30;65H2[8;2H[?25h[?25l [30;65H1[8;1H[?25h[?25lb[30;65H2[8;2H[?25h[?25lo[30;65H3[8;3H[?25h[?25ld[30;65H4[8;4H[?25h[?25la[30;65H5[8;5H[?25h[?25ln[30;65H6[8;6H[?25h[?25la[30;65H7[8;7H[?25h[?25lp[30;65H8[8;8H[?25h[?25lu[30;65H9[8;9H[?25h[?25l
+ [9;2H[K[30;63H9,1[9;1H[?25h[30;1H[K[9;1H[?25l[30;53H^[[9;1H[30;53H  [9;1H[30;63H9,1[11CAll[9;1H[?25h[?25l[30;53H:[9;1H[30;53H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"file2" 9L, 86B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# grep file file2
+[?2004lthis [01;31m[Kfile[m[K
+[01;31m[Kfile[m[K name
+[01;31m[Kfile[m[K order
+[01;31m[Kfile[m[K count 
+name of the [01;31m[Kfile[m[K
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -f file [K2
+[?2004l 
+bodanapu
+file count 
+file name
+file order
+leela
+name of the file
+saileela
+this file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -f leela.txt
+[?2004lThis is a test file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -f leela.txt[4Pfile2[C[K1
+[?2004l
+this is second test file
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -f file1leela.txt[4Pfile2[2@grep file[C[C[C[C[C[C[6Pvim[C[C[C[C[C[Cgrep test leela.txt [11Pvim file2[K1
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"file1" 2L, 26B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hthis is second test file[2;1H[K[3;1H[1m[34m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H2,0-1[9CAll[2;1H[?25h[?25l[30;53Ha[2;1H[30;53H [2;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;63H2,1[11CAll[2;1H[?25h[?25l[3;1H[K[30;63H3[3;1H[?25h[?25li[30;65H2[3;2H[?25h[?25l[3;1H[K[30;65H1[3;1H[?25h[?25l[1m[34m~                                                                               [m[30;63H2[2;1H[?25h[?25la[30;65H2[2;2H[?25h[?25lb[30;65H3[2;3H[?25h[?25lc[30;65H4[2;4H[?25h[?25ld[30;65H5[2;5H[?25h[?25l[3;1H[K[30;63H3,1[3;1H[?25h[?25l[1m[34m~                                                                               [m[30;63H2,5[2;5H[?25h[?25l[2;4H[K[30;65H4[2;4H[?25h[?25l[2;3H[K[30;65H3[2;3H[?25h[?25l[2;2H[K[30;65H2[2;2H[?25h[?25l[2;1H[K[30;65H1[2;1H[?25h[?25la[30;65H2[2;2H[?25h[?25lj[30;65H3[2;3H[?25h[?25la[30;65H4[2;4H[?25h[?25ly[30;65H5[2;5H[?25h[?25l[30;65H6[2;6H[?25h[?25l[3;1H[K[30;63H3,1[3;1H[?25h[?25la[30;65H2[3;2H[?25h[?25lr[30;65H3[3;3H[?25h[?25lu[30;65H4[3;4H[?25h[?25ln[30;65H5[3;5H[?25h[?25l[4;1H[K[30;63H4,1[4;1H[?25h[?25lc[30;65H2[4;2H[?25h[?25lh[30;65H3[4;3H[?25h[?25le[30;65H4[4;4H[?25h[?25lr[30;65H5[4;5H[?25h[?25li[30;65H6[4;6H[?25h[?25l[30;65H7[4;7H[?25h[?25l[5;1H[K[30;63H5,1[5;1H[?25h[?25ls[30;65H2[5;2H[?25h[?25lu[30;65H3[5;3H[?25h[?25lm[30;65H4[5;4H[?25h[?25la[30;65H5[5;5H[?25h[?25ln[30;65H6[5;6H[?25h[?25l[30;65H7[5;7H[?25h[?25l[6;1H[K[30;63H6,1[6;1H[?25h[?25l[1m[34m~                                                                               [m[30;63H5,7[5;7H[?25h[?25l[30;65H6[5;6H[?25h[?25l[5;5H[K[30;65H5[5;5H[?25h[?25l[5;4H[K[30;65H4[5;4H[?25h[?25l[5;3H[K[30;65H3[5;3H[?25h[?25l[5;2H[K[30;65H2[5;2H[?25h[?25l[5;1H[K[30;65H1[5;1H[?25h[?25lR[30;65H2[5;2H[?25h[?25lK[30;65H3[5;3H[?25h[?25l[30;65H4[5;4H[?25h[?25l[6;1H[K[30;63H6,1[6;1H[?25h[?25lR[30;65H2[6;2H[?25h[?25la[30;65H3[6;3H[?25h[?25lm[30;65H4[6;4H[?25h[?25l[30;65H5[6;5H[?25h[?25ls[30;65H6[6;6H[?25h[?25la[30;65H7[6;7H[?25h[?25li[30;65H8[6;8H[?25h[?25l[30;65H9[6;9H[?25h[?25l[7;1H[K[30;63H7,1[7;1H[?25h[?25l[30;63H6[6;1H[?25h[?25l[30;63H5[5;1H[?25h[?25l[30;63H4[4;1H[?25h[?25l[30;63H3[3;1H[?25h[?25l[30;63H4[4;1H[?25h[?25l[30;65H2[4;2H[?25h[?25l[30;65H3[4;3H[?25h[?25l[30;65H4[4;4H[?25h[?25l[30;65H5[4;5H[?25h[?25l[30;65H6[4;6H[?25h[?25l [30;65H5[4;5H[?25h[?25l [30;65H4[4;4H[?25h[?25l [30;65H3[4;3H[?25h[?25l [30;65H2[4;2H[?25h[?25l [30;65H1[4;1H[?25h[?25l[3;29r[29;1H
+[1;30r[3;1Harun[29;1H[1m[34m~                                                                               [m[30;63H[K[30;63H3,5[11CAll[3;5H[?25h[?25l[30;63H2[2;5H[?25h[?25l[30;63H1[1;5H[?25h[?25l[30;65H6[1;6H[?25h[?25l[30;65H7[1;7H[?25h[?25l[30;65H8[1;8H[?25h[?25l[30;65H9[1;9H[?25h[?25l[30;65H10[1;10H[?25h[?25l[30;66H1[1;11H[?25h[?25l[30;66H2[1;12H[?25h[?25l[30;66H3[1;13H[?25h[?25l[30;66H4[1;14H[?25h[?25l[30;66H5[1;15H[?25h[?25l[30;66H6[1;16H[?25h[?25l[30;66H7[1;17H[?25h[?25l[30;66H8[1;18H[?25h[?25l[30;66H9[1;19H[?25h[?25l[30;65H20[1;20H[?25h[?25l[30;66H1[1;21H[?25h[?25l[30;66H2[1;22H[?25h[?25l[30;66H3[1;23H[?25h[?25l[30;66H4[1;24H[?25h[?25l[30;66H5[1;25H[?25h[?25l4[30;66H6[1;26H[?25h[?25l[2;29r[2;1H[L[1;30r[30;63H[K[30;63H2,1[11CAll[2;1H[?25h[?25lc[30;65H2[2;2H[?25h[?25lh[30;65H3[2;3H[?25h[?25le[30;65H4[2;4H[?25h[?25lr[30;65H5[2;5H[?25h[?25li[30;65H6[2;6H[?25h[?25l[30;63H3[3;6H[?25h[?25l[30;63H4[4;6H[?25h[?25l[5;29r[5;1H[L[1;30r[30;63H[K[30;63H5,1[11CAll[5;1H[?25h[?25la[30;65H2[5;2H[?25h[?25ln[30;65H3[5;3H[?25h[?25li[30;65H4[5;4H[?25h[?25ll[30;65H5[5;5H[?25h[30;1H[K[5;4H[?25l[30;53H^[[5;4H[30;53H  [5;5H[30;63H5,4[11CAll[5;4H[?25h[?25l[30;53H:[5;4H[30;53H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"file1" 8L, 63B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vim file1[4@sort -f[C[C[C[C[C[C[4Pvim[C[C[C[C[C[C[4@sort -f[C[C[C[C[C[C
+[?2004l
+ajay 
+anil
+arun 
+cheri
+Ram sai 
+RK 
+this is second test file4
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sor t [K[K[Kt -t[Kr file1
+[?2004lthis is second test file4
+cheri
+arun 
+anil
+ajay 
+Ram sai 
+RK 
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -r file1f[C[C[C[C[C[C[4Pvim[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"file1" 8L, 63B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hthis is second test file4
+cheri[2;6H[K[3;1Hajay [3;6H[K[4;1Harun
+anil
+RK
+Ram sai
+
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H5,4[11CAll[5;4H[?25h[?25l[30;53H^[[5;4H[30;53H  [5;4H[30;53H^[[5;4H[30;53H  [5;4H[?25h[?25l[30;53H:[5;4H[30;1H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"file1" 8L, 63B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vim file1[4@sort -r[C[C[C[C[C[C
+[?2004lthis is second test file4
+cheri
+arun 
+anil
+ajay 
+Ram sai 
+RK 
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -n
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sort -n file [K1
+[?2004l
+RK 
+Ram sai 
+ajay 
+anil
+arun 
+cheri
+this is second test file4
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail  2  file1
+[?2004ltail: cannot open '2' for reading: No such file or directory
+==> file1 <==
+this is second test file4
+cheri
+ajay 
+arun 
+anil
+RK 
+Ram sai 
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail  2  file1[1P[C[1Pfile1[C[1Pfile1[1P[1@l[1@2
+[?2004lCommand 'tail2' not found, did you mean:
+  command 'tail' from deb coreutils (8.32-4.1ubuntu1.2)
+Try: apt install <deb name>
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail2  file1[1P
+[?2004lthis is second test file4
+cheri
+ajay 
+arun 
+anil
+RK 
+Ram sai 
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail file2
+[?2004lthis file
+file name
+file order
+file count 
+name of the file
+saileela
+leela
+bodanapu
+ 
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# cat file2
+[?2004lthis file
+file name
+file order
+file count 
+name of the file
+saileela
+leela
+bodanapu
+ 
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls
+[?2004l[0m[01;34mDEVOPS_AWS[0m  file1  file2  file3  file4  file5  leela.txt  typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# lscat file2[1@tail[C[C[C[C[C[C file1[1P[1P[1P[1P[1@v[1@i
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"file1" 8L, 63B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hthis is second test file4
+cheri[2;6H[K[3;1Hajay [3;6H[K[4;1Harun
+anil
+RK
+Ram sai
+
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [m[30;63H5,4[11CAll[5;4H[?25h[?25l[30;53H~@k[5;4H[30;53H   [6;3H[30;63H6,3[6;3H[?25h[?25l[30;53H~@k[6;3H[30;53H   [7;4H[30;63H7,4[7;4H[?25h[?25l[30;53H~@k[7;4H[30;53H   [8;1H[30;63H8,0-1[8;1H[?25h[?25l[30;53Hs[8;1H[30;53H [8;1H[30;53Hcl[8;1H[30;53H  [8;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;63H8,1[11CAll[8;1H[?25h[?25la[30;65H2[8;2H[?25h[?25li[30;65H3[8;3H[?25h[?25ll[30;65H4[8;4H[?25h[?25ll[30;65H5[8;5H[?25h[?25le[30;65H6[8;6H[?25h[?25la[30;65H7[8;7H[?25h[?25ll[30;65H8[8;8H[?25h[?25l[8;7H[K[30;65H7[8;7H[?25h[?25l[8;6H[K[30;65H6[8;6H[?25h[?25l[8;5H[K[30;65H5[8;5H[?25h[?25l[8;4H[K[30;65H4[8;4H[?25h[?25l[8;3H[K[30;65H3[8;3H[?25h[?25l[8;2H[K[30;65H2[8;2H[?25h[?25l[8;1H[K[30;65H1[8;1H[?25h[?25l[1m[34m~                                                                               [m[30;63H7,9[7;9H[?25h[?25l[30;65H8[7;8H[?25h[?25l[7;7H[K[30;65H7[7;7H[?25h[?25l[7;6H[K[30;65H6[7;6H[?25h[?25l[7;5H[K[30;65H5[7;5H[?25h[?25l[30;65H4[7;4H[?25h[?25l[8;1H[K[30;63H8,1[8;1H[?25h[?25ls[30;65H2[8;2H[?25h[?25la[30;65H3[8;3H[?25h[?25li[30;65H4[8;4H[?25h[?25ll[30;65H5[8;5H[?25h[?25le[30;65H6[8;6H[?25h[?25le[30;65H7[8;7H[?25h[?25ll[30;65H8[8;8H[?25h[?25la[30;65H9[8;9H[?25h[?25l[9;1H[K[30;63H9,1[9;1H[?25h[30;1H[K[9;1H[?25l[30;53H^[[9;1H[30;53H  [9;1H[30;63H9,0-1[9CAll[9;1H[?25h[?25l[30;53H:[9;1H[30;53H[K[30;1H:[?25hwq[?25l[?2004l[>4;m"file1" 9L, 67B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi  file1ls[Kcat file2[1@tail[C[C[C[C[C[C
+[?2004lthis file
+file name
+file order
+file count 
+name of the file
+saileela
+leela
+bodanapu
+ 
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail file2[K1
+[?2004lthis is second test file4
+cheri
+ajay 
+arun 
+anil
+RK 
+Ram
+saileela
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# [7mtail file1.txt file2.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail file1.txt file2.txt
+[A
+[?2004ltail: cannot open 'file1.txt' for reading: No such file or directory
+tail: cannot open 'file2.txt' for reading: No such file or directory
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail file1.txt file2.txt[1P file2.txt[1P file2.txt[1P file2.txt[1P file2.txt[C file2.txt[C[C[C[C[C[C[C[C[C[C[K[K[K[K
+[?2004l==> file1 <==
+this is second test file4
+cheri
+ajay 
+arun 
+anil
+RK 
+Ram
+saileela
+
+
+==> file2 <==
+this file
+file name
+file order
+file count 
+name of the file
+saileela
+leela
+bodanapu
+ 
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail file1  file2[C[1@ [1@-[1@3
+[?2004ltail: option used in invalid context -- 3
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail -3 file1  file2[K[K[K[K[K
+[?2004lRam
+saileela
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail -3 file1  [C[1P[1P[1@-[1@5
+[?2004lanil
+RK 
+Ram
+saileela
+
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# tail -5 file1  [K[K[K2
+[?2004lname of the file
+saileela
+leela
+bodanapu
+ 
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# c[Kls -a[Kl
+[?2004ltotal 56
+drwxr-xr-x 2 root root  4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+-rw-r--r-- 1 root root    67 Jul 15 14:58 file1
+-rw-r--r-- 1 root root    86 Jul 15 14:48 file2
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file5
+-rw-r--r-- 1 root root    20 Jul 15 14:44 leela.txt
+-rw-r--r-- 1 root root 36864 Jul 15 14:58 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# [K]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi leela.txt 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"leela.txt" 1L, 20B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HThis is a test file
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,19[10CAll[1;19H[?25h[?25l[24;53Hi[1;19H[24;53H [1;19H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,19[10CAll[1;19H[?25h[?25lse[24;65H20[1;20H[?25h[?25lse[24;66H1[1;21H[?25h[?25lae[24;66H2[1;22H[?25h[?25lse[24;66H3[1;23H[?25h[?25lae[24;66H4[1;24H[?25h[?25lse[24;66H5[1;25H[?25h[?25lae[24;66H6[1;26H[?25h[?25lse[24;66H7[1;27H[?25h[?25lse[24;66H8[1;28H[?25h[?25lae[24;66H9[1;29H[?25h[?25lse[24;65H30[1;30H[?25h[?25lae[24;66H1[1;31H[?25h[?25l`e[24;66H2[1;32H[?25h[?25le[1;32H[K[24;66H1[1;31H[?25h[?25le[1;31H[K[24;66H0[1;30H[?25h[?25le[1;30H[K[24;65H29[1;29H[?25h[?25le[1;29H[K[24;66H8[1;28H[?25h[?25le[1;28H[K[24;66H7[1;27H[?25h[?25le[1;27H[K[24;66H6[1;26H[?25h[?25le[1;26H[K[24;66H5[1;25H[?25h[?25le[1;25H[K[24;66H4[1;24H[?25h[?25le[1;24H[K[24;66H3[1;23H[?25h[?25le[1;23H[K[24;66H2[1;22H[?25h[?25le[1;22H[K[24;66H1[1;21H[?25h[?25le[1;21H[K[24;66H0[1;20H[?25h[?25le[1;20H[K[24;65H19[1;19H[?25h[?25le[1;19H[K[24;66H8[1;18H[?25h[?25lle[24;66H9[1;19H[?25h[24;1H[K[1;18H[?25l[24;53H^[[1;18H[24;53H  [1;19H[24;63H1,18[10CAll[1;18H[?25h[?25l[24;53H:[1;18H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"leela.txt" 1L, 20B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi leela.txt [8Pls -l
+[?2004ltotal 60
+drwxr-xr-x 2 root root  4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+-rw-r--r-- 1 root root    67 Jul 15 14:58 file1
+-rw-r--r-- 1 root root    86 Jul 15 14:48 file2
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file5
+-rw-r--r-- 1 root root    20 Jul 15 15:01 leela.txt
+-rw-r--r-- 1 root root 40960 Jul 15 15:01 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# chmod U=[K[Ku+rwx leela.txt 
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# chmod u+rwx leela.txt ls -l[Kvi leela.txt 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"leela.txt" 1L, 20B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HThis is a test file
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,18[10CAll[1;18H[?25h[?25l[24;53Hi[1;18H[24;53H [1;18H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,18[10CAll[1;18H[?25h[?25l[24;66H9[1;19H[?25h[?25l[24;65H20[1;20H[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?25h[?25lj[24;65H2[2;2H[?25h[?25lk[24;65H3[2;3H[?25h[?25ln[24;65H4[2;4H[?25h[?25lk[24;65H5[2;5H[?25h[?25ll[24;65H6[2;6H[?25h[?25lm[24;65H7[2;7H[?25h[?25ll[24;65H8[2;8H[?25h[?25l;[24;65H9[2;9H[?25h[?25l,[24;65H10[2;10H[?25h[?25lx[24;66H1[2;11H[?25h[?25ll[24;66H2[2;12H[?25h[?25l;[24;66H3[2;13H[?25h[?25l/[24;66H4[2;14H[?25h[?25l;[24;66H5[2;15H[?25h[?25l[2;14H[K[24;66H4[2;14H[?25h[?25l[2;13H[K[24;66H3[2;13H[?25h[?25l[2;12H[K[24;66H2[2;12H[?25h[?25l[2;11H[K[24;66H1[2;11H[?25h[?25l[2;10H[K[24;66H0[2;10H[?25h[?25l[2;9H[K[24;65H9 [2;9H[?25h[?25l[2;8H[K[24;65H8[2;8H[?25h[?25l[2;7H[K[24;65H7[2;7H[?25h[?25l[2;6H[K[24;65H6[2;6H[?25h[?25l[2;5H[K[24;65H5[2;5H[?25h[?25l[2;4H[K[24;65H4[2;4H[?25h[?25l[2;3H[K[24;65H3[2;3H[?25h[?25l[2;2H[K[24;65H2[2;2H[?25h[?25l[2;1H[K[24;65H1[2;1H[?25h[?25lh[24;65H2[2;2H[?25h[?25lz[24;65H3[2;3H[?25h[?25ll[24;65H4[2;4H[?25h[?25lx[24;65H5[2;5H[?25h[?25lz[24;65H6[2;6H[?25h[?25lx[24;65H7[2;7H[?25h[?25lm[24;65H8[2;8H[?25h[?25l,[24;65H9[2;9H[?25h[?25lz[24;65H10[2;10H[?25h[?25l>[24;66H1[2;11H[?25h[?25l?[24;66H2[2;12H[?25h[?25lx[24;66H3[2;13H[?25h[?25l,[24;66H4[2;14H[?25h[?25l.[24;66H5[2;15H[?25h[?25lz[24;66H6[2;16H[?25h[?25l<[24;66H7[2;17H[?25h[?25l?[24;66H8[2;18H[?25h[?25lx[24;66H9[2;19H[?25h[?25lz[24;65H20[2;20H[?25h[?25l>[24;66H1[2;21H[?25h[?25l?[24;66H2[2;22H[?25h[24;1H[K[2;21H[?25l[24;53H^[[2;21H[24;53H  [2;22H[24;63H2,21[10CAll[2;21H[?25h[?25l[24;53H:[2;21H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"leela.txt" 2L, 42B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi leela.txt [9@chmod u+rwx[C[C[C[C[C[C[C[C[C[C[C[9Pvi[C[C[C[C[C[C[C[C[C[C[C[Kvi leela.txt [9@chmod u+rwx[C[C[C[C[C[C[C[C[C[C[C[1P[1@-[1P[1@_[1P[C[1@_[1@x
+[?2004lchmod: invalid mode: ‘u+r_x_’
+Try 'chmod --help' for more information.
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# chmod u+r_x_ leela.txt [1P
+[?2004lchmod: invalid mode: ‘u+r_x’
+Try 'chmod --help' for more information.
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# chmod u+r_x leela.txt [1P[1P[1P[1P[1P[1@7[1@4[1@4[1@4[1P[C[C[1P[1@7
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# chmod 744 leela.txt [2@u+r_x[C[C[C[C[C[C[C[C[C[C[C[1@_[C[C[C[C[C[C[C[C[C[C[C[10Pvi[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"leela.txt" 2L, 42B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HThis is a test file
+hzlxzxm,z>?x,.z<?xz>?[2;22H[K[3;1H[1m[34m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H2,21[10CAll[2;21H[?25h[?25l[24;53Hi[2;21H[24;53H [2;21H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H2,21[10CAll[2;21H[?25h[?25l[2;21H[K[3;1H?[3;2H[K[24;63H3,1 [3;1H[?25h[?25lj?[24;65H2[3;2H[?25h[?25lk?[24;65H3[3;3H[?25h[?25lk?[24;65H4[3;4H[?25h[?25ls?[24;65H5[3;5H[?25h[?25ls?[24;65H6[3;6H[?25h[?25ln?[24;65H7[3;7H[?25h[?25lc?[24;65H8[3;8H[?25h[?25lm?[24;65H9[3;9H[?25h[?25lc?[24;65H10[3;10H[?25h[?25ls?[24;66H1[3;11H[?25h[?25lm?[24;66H2[3;12H[?25h[?25lc?[24;66H3[3;13H[?25h[?25la?[24;66H4[3;14H[?25h[24;1H[K[3;13H[?25l[24;53H^[[3;13H[24;53H  [3;14H[24;63H3,13[10CAll[3;13H[?25h[?25l[24;53H:[3;13H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"leela.txt" 3L, 56B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# vi leela.txt [7@chmod 744[C[C[C[C[C[C[C[C[C[C[C[2@u+r_x[C[C[C[C[C[C[C[C[C[C[C[2P744[C[C[C[C[C[C[C[C[C[C[C[7Pvi[C[C[C[C[C[C[C[C[C[C[C[Kcat leela.txt
+[?2004lThis is a test file
+hzlxzxm,z>?x,.z<?xz>
+jkkssncmcsmca?
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls -l
+[?2004ltotal 72
+drwxr-xr-x 2 root root  4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+-rw-r--r-- 1 root root    67 Jul 15 14:58 file1
+-rw-r--r-- 1 root root    86 Jul 15 14:48 file2
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file5
+-rwxr--r-- 1 root root    56 Jul 15 15:04 [01;32mleela.txt[0m
+-rw-r--r-- 1 root root 53248 Jul 15 15:04 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# mkdir Terraform-couse
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# cd t[K[K[K[Kchmod 775 Terraform-couse/
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls -l
+[?2004ltotal 76
+drwxr-xr-x 2 root root  4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+drwxrwxr-x 2 root root  4096 Jul 15 15:05 [01;34mTerraform-couse[0m
+-rw-r--r-- 1 root root    67 Jul 15 14:58 file1
+-rw-r--r-- 1 root root    86 Jul 15 14:48 file2
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file5
+-rwxr--r-- 1 root root    56 Jul 15 15:04 [01;32mleela.txt[0m
+-rw-r--r-- 1 root root 53248 Jul 15 15:04 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# df -h
+[?2004lFilesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.8G  5.8G  24% /
+tmpfs           475M     0  475M   0% /dev/shm
+tmpfs           190M  876K  189M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            95M  4.0K   95M   1% /run/user/1000
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls -l
+[?2004ltotal 76
+drwxr-xr-x 2 root root  4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+drwxrwxr-x 2 root root  4096 Jul 15 15:05 [01;34mTerraform-couse[0m
+-rw-r--r-- 1 root root    67 Jul 15 14:58 file1
+-rw-r--r-- 1 root root    86 Jul 15 14:48 file2
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file5
+-rwxr--r-- 1 root root    56 Jul 15 15:04 [01;32mleela.txt[0m
+-rw-r--r-- 1 root root 53248 Jul 15 15:04 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sudo chown root DEVOPS_AWS/
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ls -l
+[?2004ltotal 76
+drwxr-xr-x 2 root root  4096 Jul 15 14:41 [0m[01;34mDEVOPS_AWS[0m
+drwxrwxr-x 2 root root  4096 Jul 15 15:05 [01;34mTerraform-couse[0m
+-rw-r--r-- 1 root root    67 Jul 15 14:58 file1
+-rw-r--r-- 1 root root    86 Jul 15 14:48 file2
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file3
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file4
+-rw-r--r-- 1 root root     0 Jul 15 14:40 file5
+-rwxr--r-- 1 root root    56 Jul 15 15:04 [01;32mleela.txt[0m
+-rw-r--r-- 1 root root 53248 Jul 15 15:04 typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# ping google.com
+[?2004lPING google.com (142.250.183.174) 56(84) bytes of data.
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=1 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=2 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=3 ttl=54 time=20.2 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=4 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=5 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=6 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=7 ttl=54 time=20.2 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=8 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=9 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=10 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=11 ttl=54 time=20.2 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=12 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=13 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=14 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=15 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=16 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=17 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=18 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=19 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=20 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=21 ttl=54 time=20.5 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=22 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=23 ttl=54 time=21.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=24 ttl=54 time=20.9 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=25 ttl=54 time=20.1 ms
+64 bytes from bom07s32-in-f14.1e100.net (142.250.183.174): icmp_seq=26 ttl=54 time=20.1 ms
+^C
+--- google.com ping statistics ---
+26 packets transmitted, 26 received, 0% packet loss, time 25046ms
+rtt min/avg/max/mdev = 20.089/20.210/21.125/0.242 ms
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# sudo lsof -u root s
+[?2004llsof: status error on s: No such file or directory
+lsof 4.93.2
+ latest revision: https://github.com/lsof-org/lsof
+ latest FAQ: https://github.com/lsof-org/lsof/blob/master/00FAQ
+ latest (non-formatted) man page: https://github.com/lsof-org/lsof/blob/master/Lsof.8
+ usage: [-?abhKlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-E] [+|-e s] [+|-f[gG]]
+ [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+m [m]] [+|-M] [-o [o]] [-p s]
+ [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
+Use the ``-h'' option to get more help information.
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# 
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# 
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# 
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# [?2004l
+exit
+
+Script done on 2024-07-15 15:09:30+00:00 [COMMAND_EXIT_CODE="1"]

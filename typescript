@@ -1,0 +1,8 @@
+Script started on 2024-07-15 15:11:00+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomendsroot@ip-172-31-4-81:~/Linux_coomends# ls
+[?2004lREADME.md  [0m[01;34mcommends[0m  typescript
+[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomendsroot@ip-172-31-4-81:~/Linux_coomends# cd commends/
+[?2004l[?2004h]0;root@ip-172-31-4-81: ~/Linux_coomends/commendsroot@ip-172-31-4-81:~/Linux_coomends/commends# exit
+[?2004lexit
+
+Script done on 2024-07-15 15:11:48+00:00 [COMMAND_EXIT_CODE="0"]
