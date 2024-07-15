@@ -86,3 +86,57 @@ git pull origin ubuntucoomends
 Merge Changes:
 
 git merge origin/ubuntucoomends
+
+
+
+
+
+
+Switch Branch:
+After committing the changes, you can switch to your featurebranch (assuming it exists):
+
+bash
+Copy code
+git checkout featurebranch
+Option 2: Stash Your Changes
+Stash Changes:
+If you want to temporarily save your changes without committing them:
+
+bash
+Copy code
+git stash
+This command will stash your changes away.
+
+Switch Branch:
+After stashing, switch to your featurebranch:
+
+bash
+Copy code
+git checkout featurebranch
+Apply Stash:
+If you want to reapply your changes after switching branches:
+
+bash
+Copy code
+git stash apply
+Option 3: Discard Changes (if they are not needed)
+Discard Changes:
+If you don't need the changes in typescript and just want to switch branches:
+
+bash
+Copy code
+git checkout -- typescript
+This will discard local changes to typescript and revert it to the state it was in when you last committed.
+
+Switch Branch:
+After discarding changes, switch to your featurebranch:
+
+bash
+Copy code
+git checkout featurebranch
+Checking Branches
+To verify which branches exist and which one you are currently on, use:
+
+bash
+Copy code
+git branch
