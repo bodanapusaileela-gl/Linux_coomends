@@ -3,9 +3,7 @@ git add .
 git status 
 git commit -m " msgss"
 git log
-git  remote origin push 
-  
-
+git push origin ubuntucoomends
 
 
  after github add file matul 
