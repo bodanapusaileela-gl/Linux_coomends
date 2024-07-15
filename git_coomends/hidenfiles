@@ -1,0 +1,27 @@
+git init
+git add .
+git status 
+git commit -m " msgss"
+git log
+git  remote origin push 
+  
+
+
+
+ after github add file matul 
+the file into the  linux teminal how
+same brache    ----- use to the git merge
+ 
+
+
+
+.git
+       what file there
+ 1.coomitmsgs
+2.logs
+3.HEADS
+4.ref
+5.branch
+6.objects
+7.origin
+
